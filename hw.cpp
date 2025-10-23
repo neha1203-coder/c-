@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-    float a;
-    a = 7/22 * (3.14+2) * 3/5;
+    float a = 7/22 * (3.14+2) * 3/5;
     float b = 7.0/22 * (3.14+2) * 3.0/5;
-    cout<<a;
-    cout<<b;
+    int c = 4 + 2 % -8;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
     
 }
