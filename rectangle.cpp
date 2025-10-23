@@ -8,6 +8,14 @@ int main(){
     cin>>b;
     perimeter = 2*(l + b);
     area = l * b;
-    cout<<"perimeter of rectangle:"<<perimeter<<endl<<"area of rectangle:"<<area;
+    cout<<"perimeter of rectangle:"<<perimeter<<endl<<"area of rectangle:"<<area<<endl;
+    if(area>perimeter)
+    {
+        cout<<"area is greater than perimeter";
+
+    }
+    else{
+        cout<<"perimeter is greater than area";
+    }
 }
 
